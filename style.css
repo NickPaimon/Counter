@@ -1,0 +1,52 @@
+body {
+  font-family: 'Ranchers', cursive;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+}
+
+main {
+  background-color: blanchedalmond;
+  min-width: 500px;
+  width: 30vw;
+  border: 1px solid black;
+  font-size: 2rem;
+  margin-top: 20%;
+}
+
+#value {
+  font-size: 45px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+button {
+  height: 4vh;
+  width: 25%;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-family: 'Ranchers', cursive;
+  border:5px solid black;
+  color: #5e3d3d;
+}
+
+button:hover {
+  font-size: 1.2rem;
+  border: none;
+  color: #ffffff;
+  background-color: black;
+  transition: .6s ease-in-out;
+}
+
+.afterclickbutton {
+  height: 2vh;
+}
